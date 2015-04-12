@@ -1,0 +1,11 @@
+{
+    "name": "nocare/crystals",
+    "description": "Simple Mod to explore crystals and energy",
+    "authors": [
+        {
+            "name": "Nocare",
+            "email": "nocare@tuggoat.com"
+        }
+    ],
+    "require": {}
+}
