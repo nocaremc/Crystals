@@ -15,12 +15,12 @@ end
  -------------------------------------------------------------------------------
  -- Called once from C++ at engine initialization time
 function Crystals:Initialize()
-	Eternus.CommandService:NKRegisterChatCommand("TestCommand", "TestCommandFunction")
+	Eternus.CommandService:NKRegisterChatCommand("shoop", "TestCommandFunction")
 end
 
 -------------------------------------------------------------------------------
 -- Called from C++ when the current game enters 
-function Crystals:Enter()	
+function Crystals:Enter()
 end
 
 -------------------------------------------------------------------------------
