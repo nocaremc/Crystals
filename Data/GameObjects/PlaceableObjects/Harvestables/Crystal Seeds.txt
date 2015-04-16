@@ -47,7 +47,7 @@ GameObjects
 			}
 			StaticGraphics
 			{
-				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				model = "Models/PlaceableObjects/Rocks/CrystalChip.obj"
 				dontCastShadows = 1.0
 			
 				Diffuse
@@ -112,7 +112,7 @@ GameObjects
 			}
 			StaticGraphics
 			{
-				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				model = "Models/PlaceableObjects/Rocks/CrystalChip.obj"
 				dontCastShadows = 1.0
 			
 				Diffuse
@@ -177,7 +177,7 @@ GameObjects
 			}
 			StaticGraphics
 			{
-				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				model = "Models/PlaceableObjects/Rocks/CrystalChip.obj"
 				dontCastShadows = 1.0
 			
 				Diffuse
@@ -242,7 +242,7 @@ GameObjects
 			}
 			StaticGraphics
 			{
-				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				model = "Models/PlaceableObjects/Rocks/CrystalChip.obj"
 				dontCastShadows = 1.0
 			
 				Diffuse
@@ -307,7 +307,7 @@ GameObjects
 			}
 			StaticGraphics
 			{
-				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				model = "Models/PlaceableObjects/Rocks/CrystalChip.obj"
 				dontCastShadows = 1.0
 			
 				Diffuse
@@ -372,7 +372,7 @@ GameObjects
 			}
 			StaticGraphics
 			{
-				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				model = "Models/PlaceableObjects/Rocks/CrystalChip.obj"
 				dontCastShadows = 1.0
 			
 				Diffuse
@@ -437,7 +437,7 @@ GameObjects
 			}
 			StaticGraphics
 			{
-				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				model = "Models/PlaceableObjects/Rocks/CrystalChip.obj"
 				dontCastShadows = 1.0
 			
 				Diffuse
@@ -502,7 +502,7 @@ GameObjects
 			}
 			StaticGraphics
 			{
-				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				model = "Models/PlaceableObjects/Rocks/CrystalChip.obj"
 				dontCastShadows = 1.0
 			
 				Diffuse
@@ -567,7 +567,7 @@ GameObjects
 			}
 			StaticGraphics
 			{
-				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				model = "Models/PlaceableObjects/Rocks/CrystalChip.obj"
 				dontCastShadows = 1.0
 			
 				Diffuse
