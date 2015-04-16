@@ -1,0 +1,127 @@
+
+GameObjects
+{
+	PlaceableObject
+	{    
+        Crystal Tree
+        {
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/Grower.lua"
+				class = "Grower"
+				
+				arguments
+				{
+					encumbrance = 1
+	
+					controllerName = "Crystal Tree Growth Controller"
+					timeBetweenGrowths = 180.0
+					timeBetweenGrowthsVariance = 0.0
+					growableLimit = 3
+					totalGrowables = 0
+					
+					spawningCenter = <-0.0, 3.0, -0.0>
+					spawningRegionHeight = 2.0
+					spawningRegionMinDistance = 1.8
+					spawningRegionMaxDistance = 1.9
+
+					dataMetricCategory = "Tree Crystal"
+					UBPdestroy = 4
+					LBPdestroy = 3
+					XPdestroy = 7
+					
+					InitialChildren
+					{
+						1
+						{
+							name = "Ruby Shard"
+							offset = <-0.898, 4.816, 1.904>
+							rotationOffset = <0, 0, 0>
+							scale = 1.0
+						}
+						2
+						{
+							name = "Ruby Shard"
+							offset = <-0.761, 2.752, 0.603>
+							rotationOffset = <0, 0, 0>
+							scale = 1.0
+						}
+						3
+						{
+							name = "Ruby Shard"
+							offset = <-0.761, 4.816, -1.098>
+							rotationOffset = <0, 0, 0>
+							scale = 1.0
+						}
+						4
+						{
+							name = "Ruby Shard"
+							offset = <1.893, 3.984, 0.346>
+							rotationOffset = <0, 0, 0>
+							scale = 1.0
+						}
+					}
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Trees/tree_fruit_bare.obj"
+				useAlphaShadows = 1
+				
+				Diffuse
+				{
+					3 = "Models/PlaceableObjects/Trees/tree_fruit_bare.tga"
+					2 = "Models/PlaceableObjects/Trees/tree_fruit_branch.tga"
+					1 = "Models/PlaceableObjects/Trees/tree_fruit_trunk.tga"
+					0 = "Models/PlaceableObjects/Trees/RootsMaster1med_diff.tga"
+				}
+			}
+			RigidBody
+			{
+				activePhysics = 0
+				mass = 1000.0
+				friction = 3.0
+			}
+			Placeable
+			{
+				name = "Crystal Tree"
+				icon = "fruitTreeApple"
+				minScale = 1.0
+				maxScale = 1.0
+							
+				category = "Wood"
+				tier = 2
+				health = 80
+				durabilityLossOnCorrect = 1.0
+				durabilityLossOnIncorrect = 4.0
+	
+				placementSound = "GrassPlace"
+				removalSound = "GrassDig"
+				miningEmitter = "Strike WoodFruit Emitter"
+				miningEmitterAlt = "Strike LeafEllipticGreen Emitter"
+
+				Drops
+				{
+					Ruby Shard
+					{
+						dropChance = 1.0
+						dropMinAmount = 1
+						dropMaxAmount = 1
+					}
+				}
+			}
+			Children
+			{
+				Drift Elliptic Green Leaf Emitter
+				{
+					offset = <0, 4, 0>
+				}
+				Fruit LeafElliptic Green Emitter
+				{
+					offset = <0, 3, 0>
+				}
+			}
+		}

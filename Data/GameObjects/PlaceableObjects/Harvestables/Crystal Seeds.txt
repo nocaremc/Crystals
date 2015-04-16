@@ -1,0 +1,647 @@
+
+GameObjects
+{
+	PlaceableObject
+	{
+        //Ruby Shard
+        //Topaz Shard
+        //Firestone Shard
+        //Citrine Shard
+        //Peridot Shard
+        //Blue Crystal Shard
+        //Froststone Shard
+        //Sapphire Shard
+        //Amethyst Shard
+        
+		Ruby Chip
+		{
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/Seedtwo.lua"
+				class = "Seed"
+				
+				arguments
+				{
+					encumbrance = 0.1
+					staminaModifier = 8.0
+					energyModifier = 5.0
+					healthModifier = 4.0
+					
+					nextFormName = "Crystal Tree Growth Controller"
+					growableMaterialName = "Dirt Tilled"
+                    # Time of day these can be planted
+					minimumGrowthTime = 0
+					maximumGrowthTime = 2400
+					bodyToCheck = "none"
+					clearanceRadius = 2.5
+
+					dataMetricCategory = "Chips Crystal"
+					TORPconsume = 1
+					UBPcraft = 1
+					LBPcraft = 1
+					XPcraft = 2						
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				dontCastShadows = 1.0
+			
+				Diffuse
+				{
+					0 = "Models/PlaceableObjects/Harvestables/fruitAppleRed_diff.tga"
+				}
+			}
+			RigidBody
+			{
+				activePhysics = 1
+				mass = 1.0
+				friction = 5.0
+			}
+			Placeable
+			{
+				name = "Ruby Chip"
+				icon = "seedsApple"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Vegetation"
+				resource = 1
+				tier = 4
+				maxStackCount = 10
+								
+				placementSound = "GrassPlace"
+			}
+		}
+        // Ruby Chip
+        
+        Topaz Chip
+		{
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/Seedtwo.lua"
+				class = "Seed"
+				
+				arguments
+				{
+					encumbrance = 0.1
+					staminaModifier = 8.0
+					energyModifier = 5.0
+					healthModifier = 4.0
+					
+					nextFormName = "Crystal Tree Growth Controller"
+					growableMaterialName = "Dirt Tilled"
+                    # Time of day these can be planted
+					minimumGrowthTime = 0
+					maximumGrowthTime = 2400
+					bodyToCheck = "none"
+					clearanceRadius = 2.5
+
+					dataMetricCategory = "Chips Crystal"
+					TORPconsume = 1
+					UBPcraft = 1
+					LBPcraft = 1
+					XPcraft = 2						
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				dontCastShadows = 1.0
+			
+				Diffuse
+				{
+					0 = "Models/PlaceableObjects/Harvestables/fruitAppleRed_diff.tga"
+				}
+			}
+			RigidBody
+			{
+				activePhysics = 1
+				mass = 1.0
+				friction = 5.0
+			}
+			Placeable
+			{
+				name = "Topaz Chip"
+				icon = "seedsApple"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Vegetation"
+				resource = 1
+				tier = 4
+				maxStackCount = 10
+								
+				placementSound = "GrassPlace"
+			}
+		}
+        // Topaz Chip
+        
+        Firestone Chip
+		{
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/Seedtwo.lua"
+				class = "Seed"
+				
+				arguments
+				{
+					encumbrance = 0.1
+					staminaModifier = 8.0
+					energyModifier = 5.0
+					healthModifier = 4.0
+					
+					nextFormName = "Crystal Tree Growth Controller"
+					growableMaterialName = "Dirt Tilled"
+                    # Time of day these can be planted
+					minimumGrowthTime = 0
+					maximumGrowthTime = 2400
+					bodyToCheck = "none"
+					clearanceRadius = 2.5
+
+					dataMetricCategory = "Chips Crystal"
+					TORPconsume = 1
+					UBPcraft = 1
+					LBPcraft = 1
+					XPcraft = 2						
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				dontCastShadows = 1.0
+			
+				Diffuse
+				{
+					0 = "Models/PlaceableObjects/Harvestables/fruitAppleRed_diff.tga"
+				}
+			}
+			RigidBody
+			{
+				activePhysics = 1
+				mass = 1.0
+				friction = 5.0
+			}
+			Placeable
+			{
+				name = "Firestone Chip"
+				icon = "seedsApple"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Vegetation"
+				resource = 1
+				tier = 4
+				maxStackCount = 10
+								
+				placementSound = "GrassPlace"
+			}
+		}
+        // Firestone Chip
+
+        Citrine Chip
+		{
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/Seedtwo.lua"
+				class = "Seed"
+				
+				arguments
+				{
+					encumbrance = 0.1
+					staminaModifier = 8.0
+					energyModifier = 5.0
+					healthModifier = 4.0
+					
+					nextFormName = "Crystal Tree Growth Controller"
+					growableMaterialName = "Dirt Tilled"
+                    # Time of day these can be planted
+					minimumGrowthTime = 0
+					maximumGrowthTime = 2400
+					bodyToCheck = "none"
+					clearanceRadius = 2.5
+
+					dataMetricCategory = "Chips Crystal"
+					TORPconsume = 1
+					UBPcraft = 1
+					LBPcraft = 1
+					XPcraft = 2						
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				dontCastShadows = 1.0
+			
+				Diffuse
+				{
+					0 = "Models/PlaceableObjects/Harvestables/fruitAppleRed_diff.tga"
+				}
+			}
+			RigidBody
+			{
+				activePhysics = 1
+				mass = 1.0
+				friction = 5.0
+			}
+			Placeable
+			{
+				name = "Citrine Chip"
+				icon = "seedsApple"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Vegetation"
+				resource = 1
+				tier = 4
+				maxStackCount = 10
+								
+				placementSound = "GrassPlace"
+			}
+		}
+        // Citrine Chip
+        
+        Peridot Chip
+		{
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/Seedtwo.lua"
+				class = "Seed"
+				
+				arguments
+				{
+					encumbrance = 0.1
+					staminaModifier = 8.0
+					energyModifier = 5.0
+					healthModifier = 4.0
+					
+					nextFormName = "Crystal Tree Growth Controller"
+					growableMaterialName = "Dirt Tilled"
+                    # Time of day these can be planted
+					minimumGrowthTime = 0
+					maximumGrowthTime = 2400
+					bodyToCheck = "none"
+					clearanceRadius = 2.5
+
+					dataMetricCategory = "Chips Crystal"
+					TORPconsume = 1
+					UBPcraft = 1
+					LBPcraft = 1
+					XPcraft = 2						
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				dontCastShadows = 1.0
+			
+				Diffuse
+				{
+					0 = "Models/PlaceableObjects/Harvestables/fruitAppleRed_diff.tga"
+				}
+			}
+			RigidBody
+			{
+				activePhysics = 1
+				mass = 1.0
+				friction = 5.0
+			}
+			Placeable
+			{
+				name = "Peridot Chip"
+				icon = "seedsApple"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Vegetation"
+				resource = 1
+				tier = 4
+				maxStackCount = 10
+								
+				placementSound = "GrassPlace"
+			}
+		}
+        // Peridot Chip
+        
+        Blue Crystal Chip
+		{
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/Seedtwo.lua"
+				class = "Seed"
+				
+				arguments
+				{
+					encumbrance = 0.1
+					staminaModifier = 8.0
+					energyModifier = 5.0
+					healthModifier = 4.0
+					
+					nextFormName = "Crystal Tree Growth Controller"
+					growableMaterialName = "Dirt Tilled"
+                    # Time of day these can be planted
+					minimumGrowthTime = 0
+					maximumGrowthTime = 2400
+					bodyToCheck = "none"
+					clearanceRadius = 2.5
+
+					dataMetricCategory = "Chips Crystal"
+					TORPconsume = 1
+					UBPcraft = 1
+					LBPcraft = 1
+					XPcraft = 2						
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				dontCastShadows = 1.0
+			
+				Diffuse
+				{
+					0 = "Models/PlaceableObjects/Harvestables/fruitAppleRed_diff.tga"
+				}
+			}
+			RigidBody
+			{
+				activePhysics = 1
+				mass = 1.0
+				friction = 5.0
+			}
+			Placeable
+			{
+				name = "Blue Crystal Chip"
+				icon = "seedsApple"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Vegetation"
+				resource = 1
+				tier = 4
+				maxStackCount = 10
+								
+				placementSound = "GrassPlace"
+			}
+		}
+        // Blue Crystal Chip
+        
+        Froststone Chip
+		{
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/Seedtwo.lua"
+				class = "Seed"
+				
+				arguments
+				{
+					encumbrance = 0.1
+					staminaModifier = 8.0
+					energyModifier = 5.0
+					healthModifier = 4.0
+					
+					nextFormName = "Crystal Tree Growth Controller"
+					growableMaterialName = "Dirt Tilled"
+                    # Time of day these can be planted
+					minimumGrowthTime = 0
+					maximumGrowthTime = 2400
+					bodyToCheck = "none"
+					clearanceRadius = 2.5
+
+					dataMetricCategory = "Chips Crystal"
+					TORPconsume = 1
+					UBPcraft = 1
+					LBPcraft = 1
+					XPcraft = 2						
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				dontCastShadows = 1.0
+			
+				Diffuse
+				{
+					0 = "Models/PlaceableObjects/Harvestables/fruitAppleRed_diff.tga"
+				}
+			}
+			RigidBody
+			{
+				activePhysics = 1
+				mass = 1.0
+				friction = 5.0
+			}
+			Placeable
+			{
+				name = "Froststone Chip"
+				icon = "seedsApple"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Vegetation"
+				resource = 1
+				tier = 4
+				maxStackCount = 10
+								
+				placementSound = "GrassPlace"
+			}
+		}
+        // Froststone Chip
+        
+        Sapphire Chip
+		{
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/Seedtwo.lua"
+				class = "Seed"
+				
+				arguments
+				{
+					encumbrance = 0.1
+					staminaModifier = 8.0
+					energyModifier = 5.0
+					healthModifier = 4.0
+					
+					nextFormName = "Crystal Tree Growth Controller"
+					growableMaterialName = "Dirt Tilled"
+                    # Time of day these can be planted
+					minimumGrowthTime = 0
+					maximumGrowthTime = 2400
+					bodyToCheck = "none"
+					clearanceRadius = 2.5
+
+					dataMetricCategory = "Chips Crystal"
+					TORPconsume = 1
+					UBPcraft = 1
+					LBPcraft = 1
+					XPcraft = 2						
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				dontCastShadows = 1.0
+			
+				Diffuse
+				{
+					0 = "Models/PlaceableObjects/Harvestables/fruitAppleRed_diff.tga"
+				}
+			}
+			RigidBody
+			{
+				activePhysics = 1
+				mass = 1.0
+				friction = 5.0
+			}
+			Placeable
+			{
+				name = "Sapphire Chip"
+				icon = "seedsApple"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Vegetation"
+				resource = 1
+				tier = 4
+				maxStackCount = 10
+								
+				placementSound = "GrassPlace"
+			}
+		}
+        // Sapphire Chip
+        
+        Amethyst Chip
+		{
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/Seedtwo.lua"
+				class = "Seed"
+				
+				arguments
+				{
+					encumbrance = 0.1
+					staminaModifier = 8.0
+					energyModifier = 5.0
+					healthModifier = 4.0
+					
+					nextFormName = "Crystal Tree Growth Controller"
+					growableMaterialName = "Dirt Tilled"
+                    # Time of day these can be planted
+					minimumGrowthTime = 0
+					maximumGrowthTime = 2400
+					bodyToCheck = "none"
+					clearanceRadius = 2.5
+
+					dataMetricCategory = "Chips Crystal"
+					TORPconsume = 1
+					UBPcraft = 1
+					LBPcraft = 1
+					XPcraft = 2						
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Rocks/MateriaSeed.obj"
+				dontCastShadows = 1.0
+			
+				Diffuse
+				{
+					0 = "Models/PlaceableObjects/Harvestables/fruitAppleRed_diff.tga"
+				}
+			}
+			RigidBody
+			{
+				activePhysics = 1
+				mass = 1.0
+				friction = 5.0
+			}
+			Placeable
+			{
+				name = "Amethyst Chip"
+				icon = "seedsApple"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Vegetation"
+				resource = 1
+				tier = 4
+				maxStackCount = 10
+								
+				placementSound = "GrassPlace"
+			}
+		}
+        // Amethyst Chip
+    }
+    
+    Placeable
+    {
+        Crystal Tree Growth Controller
+		{
+			Transform
+			{
+			}
+
+			Script
+			{
+				file = "Scripts/Objects/GrowableStarter.lua"
+				class = "GrowableStarter"
+				
+				arguments
+				{
+					freeControllerWhenFinished = 1
+					checkForPlacement = 0
+					minimumGrowthTime = 000
+					maximumGrowthTime = 2400
+					growableMaterialName = "Dirt Tilled"
+					bodyToCheck = "sun"
+					#clearanceRadius = 2.5
+					
+					States
+					{
+						1
+						{
+							objectName = "Crystal Tree"
+							growthTime = 295.0
+							beginningScale = 0.7
+							endingScale = 0.95
+							pickable = 1
+							freeControllerWhenFinished = 1
+							emitterName = "Grow LeafElliptic Green Emitter"
+						}
+					}
+				}
+			}
+			
+			Placeable
+			{
+				name = "Crystal Tree Growth Controller"
+			}
+		}
+    }
+}

@@ -15,7 +15,6 @@ end
  -------------------------------------------------------------------------------
  -- Called once from C++ at engine initialization time
 function Crystals:Initialize()
-	Eternus.CommandService:NKRegisterChatCommand("shoop", "TestCommandFunction")
 end
 
 -------------------------------------------------------------------------------
@@ -34,7 +33,6 @@ function Crystals:Process(dt)
 end
 
 function Crystals:TestCommandFunction(args)
-	NKError("Registered Command Worked!")
 end
 
 EntityFramework:RegisterModScript(Crystals)

@@ -1,0 +1,443 @@
+All Recipes
+{
+    //Ruby Shard
+    //Topaz Shard
+    //Firestone Shard
+    //Citrine Shard
+    //Peridot Shard
+    //Blue Crystal Shard
+    //Froststone Shard
+    //Sapphire Shard
+    //Amethyst Shard
+    
+	Ruby Chip
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftTime = 3.0
+			
+			Components
+			{
+				Ruby Shard
+				{
+					"Ruby Shard" = 1
+				}
+			}
+
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 2
+			}
+			
+			Results
+			{
+				"Ruby Chip" = 2
+			}
+
+			Crafting Stations
+			{
+				Crude Workbench
+				{
+					craftTime = 0.25
+				}
+			
+				Crafting Rock
+				{
+					craftTime = 0.75
+				}
+
+				Crafting Stump
+				{
+					craftTime = 1.0
+				}
+			}
+		}
+	}
+    // Ruby Chip
+    
+	Topaz Chip
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftTime = 3.0
+			
+			Components
+			{
+				Topaz Shard
+				{
+					"Topaz Shard" = 1
+				}
+			}
+
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 2
+			}
+			
+			Results
+			{
+				"Topaz Chip" = 2
+			}
+
+			Crafting Stations
+			{
+				Crude Workbench
+				{
+					craftTime = 0.25
+				}
+			
+				Crafting Rock
+				{
+					craftTime = 0.75
+				}
+
+				Crafting Stump
+				{
+					craftTime = 1.0
+				}
+			}
+		}
+	}
+    // Topaz Chip
+    
+	Firestone Chip
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftTime = 3.0
+			
+			Components
+			{
+				Firestone Shard
+				{
+					"Firestone Shard" = 1
+				}
+			}
+
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 2
+			}
+			
+			Results
+			{
+				"Firestone Chip" = 2
+			}
+
+			Crafting Stations
+			{
+				Crude Workbench
+				{
+					craftTime = 0.25
+				}
+			
+				Crafting Rock
+				{
+					craftTime = 0.75
+				}
+
+				Crafting Stump
+				{
+					craftTime = 1.0
+				}
+			}
+		}
+	}
+    // Firestone Chip
+    
+	Citrine Chip
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftTime = 3.0
+			
+			Components
+			{
+				Citrine Shard
+				{
+					"Citrine Shard" = 1
+				}
+			}
+
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 2
+			}
+			
+			Results
+			{
+				"Citrine Chip" = 2
+			}
+
+			Crafting Stations
+			{
+				Crude Workbench
+				{
+					craftTime = 0.25
+				}
+			
+				Crafting Rock
+				{
+					craftTime = 0.75
+				}
+
+				Crafting Stump
+				{
+					craftTime = 1.0
+				}
+			}
+		}
+	}
+    // Citrine Chip
+    
+	Peridot Chip
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftTime = 3.0
+			
+			Components
+			{
+				Peridot Shard
+				{
+					"Peridot Shard" = 1
+				}
+			}
+
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 2
+			}
+			
+			Results
+			{
+				"Peridot Chip" = 2
+			}
+
+			Crafting Stations
+			{
+				Crude Workbench
+				{
+					craftTime = 0.25
+				}
+			
+				Crafting Rock
+				{
+					craftTime = 0.75
+				}
+
+				Crafting Stump
+				{
+					craftTime = 1.0
+				}
+			}
+		}
+	}
+    // Peridot Chip
+    
+	Blue Crystal Chip
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftTime = 3.0
+			
+			Components
+			{
+				Blue Crystal Shard
+				{
+					"Blue Crystal Shard" = 1
+				}
+			}
+
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 2
+			}
+			
+			Results
+			{
+				"Blue Crystal Chip" = 2
+			}
+
+			Crafting Stations
+			{
+				Crude Workbench
+				{
+					craftTime = 0.25
+				}
+			
+				Crafting Rock
+				{
+					craftTime = 0.75
+				}
+
+				Crafting Stump
+				{
+					craftTime = 1.0
+				}
+			}
+		}
+	}
+    // Blue Crystal Chip
+    
+	Froststone Chip
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftTime = 3.0
+			
+			Components
+			{
+				Froststone Shard
+				{
+					"Froststone Shard" = 1
+				}
+			}
+
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 2
+			}
+			
+			Results
+			{
+				"Froststone Chip" = 2
+			}
+
+			Crafting Stations
+			{
+				Crude Workbench
+				{
+					craftTime = 0.25
+				}
+			
+				Crafting Rock
+				{
+					craftTime = 0.75
+				}
+
+				Crafting Stump
+				{
+					craftTime = 1.0
+				}
+			}
+		}
+	}
+    // Froststone Chip
+	Sapphire Chip
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftTime = 3.0
+			
+			Components
+			{
+				Sapphire Shard
+				{
+					"Sapphire Shard" = 1
+				}
+			}
+
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 2
+			}
+			
+			Results
+			{
+				"Sapphire Chip" = 2
+			}
+
+			Crafting Stations
+			{
+				Crude Workbench
+				{
+					craftTime = 0.25
+				}
+			
+				Crafting Rock
+				{
+					craftTime = 0.75
+				}
+
+				Crafting Stump
+				{
+					craftTime = 1.0
+				}
+			}
+		}
+	}
+    // Sapphire Chip
+    
+	Amethyst Chip
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftTime = 3.0
+			
+			Components
+			{
+				Amethyst Shard
+				{
+					"Amethyst Shard" = 1
+				}
+			}
+
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 2
+			}
+			
+			Results
+			{
+				"Amethyst Chip" = 2
+			}
+
+			Crafting Stations
+			{
+				Crude Workbench
+				{
+					craftTime = 0.25
+				}
+			
+				Crafting Rock
+				{
+					craftTime = 0.75
+				}
+
+				Crafting Stump
+				{
+					craftTime = 1.0
+				}
+			}
+		}
+	}
+    // Amethyst Chip
+}
