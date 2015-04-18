@@ -10,7 +10,7 @@ All Recipes
     //Sapphire Shard
     //Amethyst Shard
     
-	Ruby Chip
+	Ruby Chip Recipe
 	{
 		Script = "Scripts/Recipes/DefaultRecipe.lua"
 
@@ -58,7 +58,7 @@ All Recipes
 	}
     // Ruby Chip
     
-	Topaz Chip
+	Topaz Chip Recipe
 	{
 		Script = "Scripts/Recipes/DefaultRecipe.lua"
 
@@ -106,7 +106,7 @@ All Recipes
 	}
     // Topaz Chip
     
-	Firestone Chip
+	Firestone Chip Recipe
 	{
 		Script = "Scripts/Recipes/DefaultRecipe.lua"
 
@@ -154,7 +154,7 @@ All Recipes
 	}
     // Firestone Chip
     
-	Citrine Chip
+	Citrine Chip Recipe
 	{
 		Script = "Scripts/Recipes/DefaultRecipe.lua"
 
@@ -202,7 +202,7 @@ All Recipes
 	}
     // Citrine Chip
     
-	Peridot Chip
+	Peridot Chip Recipe
 	{
 		Script = "Scripts/Recipes/DefaultRecipe.lua"
 
@@ -250,7 +250,7 @@ All Recipes
 	}
     // Peridot Chip
     
-	Blue Crystal Chip
+	Blue Crystal Chip Recipe
 	{
 		Script = "Scripts/Recipes/DefaultRecipe.lua"
 
@@ -298,7 +298,7 @@ All Recipes
 	}
     // Blue Crystal Chip
     
-	Froststone Chip
+	Froststone Chip Recipe
 	{
 		Script = "Scripts/Recipes/DefaultRecipe.lua"
 
@@ -345,7 +345,8 @@ All Recipes
 		}
 	}
     // Froststone Chip
-	Sapphire Chip
+    
+	Sapphire Chip Recipe
 	{
 		Script = "Scripts/Recipes/DefaultRecipe.lua"
 
@@ -393,7 +394,7 @@ All Recipes
 	}
     // Sapphire Chip
     
-	Amethyst Chip
+	Amethyst Chip Recipe
 	{
 		Script = "Scripts/Recipes/DefaultRecipe.lua"
 

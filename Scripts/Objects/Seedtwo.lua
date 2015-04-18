@@ -1,6 +1,6 @@
 include("Scripts/Core/Common.lua")
 include("Scripts/Objects/GrowableDataTwo.lua")
---include("Scripts/Objects/Consumable.lua")
+include("Scripts/Objects/Consumable.lua")
 
 local PHYSICS = Eternus.PhysicsWorld
 local OUTPUT = Eternus.Output
@@ -168,6 +168,11 @@ function Seed:Plant()
 
 	-- Create new object
 	local growableStarter = Eternus.GameObjectSystem:NKCreateGameObject(self.m_nextFormName, true)
+
+    --local rot = quat.new(1.0, 0.0, 0.0, 0.0)
+
+    local scale = 1.0
+    
 	if (growableStarter == nil) then
 		NKError("Attemtping to create starter object " .. self.m_nextFormName .. ", but object could not be created.\n")
 		return false
@@ -184,6 +189,8 @@ function Seed:Plant()
 	
 	grownObject = starterScript:Grow({self.object})
 	if (grownObject ~= nil) then
+        --grownObject:NKSetOrientation(rot)
+        grownObject:NKSetAbsoluteScale(scale)
 		growableStarter = nil
 		self:ModifyStackSize(-1) -- Starter should delete itself.
 		return true

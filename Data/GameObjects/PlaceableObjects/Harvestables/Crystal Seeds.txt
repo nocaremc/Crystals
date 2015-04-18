@@ -26,16 +26,15 @@ GameObjects
 				arguments
 				{
 					encumbrance = 0.1
-					staminaModifier = 8.0
+					staminaModifier = -8.0
 					energyModifier = 5.0
-					healthModifier = 4.0
+					healthModifier = -4.0
 					
 					nextFormName = "Crystal Tree Growth Controller"
-					growableMaterialName = "Dirt Tilled"
+					growableMaterialName = "Cobblestone Multi"
                     # Time of day these can be planted
 					minimumGrowthTime = 0
 					maximumGrowthTime = 2400
-					bodyToCheck = "none"
 					clearanceRadius = 2.5
 
 					dataMetricCategory = "Chips Crystal"

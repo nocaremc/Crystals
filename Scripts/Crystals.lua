@@ -15,6 +15,7 @@ end
  -------------------------------------------------------------------------------
  -- Called once from C++ at engine initialization time
 function Crystals:Initialize()
+    Eternus.CraftingSystem:ParseRecipeFile("Data/Crafting/recipes.txt")
 end
 
 -------------------------------------------------------------------------------

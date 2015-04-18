@@ -17,16 +17,16 @@ GameObjects
 				{
 					encumbrance = 1
 	
-					controllerName = "Crystal Tree Growth Controller"
-					timeBetweenGrowths = 180.0
+					controllerName = "Crystal Growth Controller"
+					timeBetweenGrowths = 30.0
 					timeBetweenGrowthsVariance = 0.0
 					growableLimit = 3
 					totalGrowables = 0
 					
-					spawningCenter = <-0.0, 3.0, -0.0>
-					spawningRegionHeight = 2.0
-					spawningRegionMinDistance = 1.8
-					spawningRegionMaxDistance = 1.9
+					spawningCenter = <-0.0, 0.5, -0.0>
+					spawningRegionHeight = 1.0
+					spawningRegionMinDistance = 0.8
+					spawningRegionMaxDistance = 1.0
 
 					dataMetricCategory = "Tree Crystal"
 					UBPdestroy = 4
@@ -35,48 +35,49 @@ GameObjects
 					
 					InitialChildren
 					{
-						1
-						{
-							name = "Ruby Shard"
-							offset = <-0.898, 4.816, 1.904>
-							rotationOffset = <0, 0, 0>
-							scale = 1.0
-						}
-						2
-						{
-							name = "Topaz Shard"
-							offset = <-0.761, 2.752, 0.603>
-							rotationOffset = <0, 0, 0>
-							scale = 1.0
-						}
-						3
-						{
-							name = "Peridot Shard"
-							offset = <-0.761, 4.816, -1.098>
-							rotationOffset = <0, 0, 0>
-							scale = 1.0
-						}
-						4
-						{
-							name = "Firestone Shard"
-							offset = <1.893, 3.984, 0.346>
-							rotationOffset = <0, 0, 0>
-							scale = 1.0
-						}
+						//1
+						//{
+						//	name = "Ruby Shard"
+						//	offset = <-0.898, 0, 1.904>
+						//	rotationOffset = <0, 0, 0>
+						//	scale = 1.0
+						//}
+						//2
+						//{
+						//	name = "Topaz Shard"
+						//	offset = <-0.761, 0, 0.603>
+						//	rotationOffset = <0, 0, 0>
+						//	scale = 1.0
+						//}
+						//3
+						//{
+						//	name = "Peridot Shard"
+						//	offset = <-0.761, 0, 0>
+						//	rotationOffset = <1.5707, 0, 0.5>
+						//	scale = 1.0
+						//}
+						//1
+						//{
+						//	name = "Peridot Shard"
+						//	offset = <0, 4, 0.0>
+						//	rotationOffset = <-1.5, 0.8, 0>
+						//	scale = 1.0
+						//}
 					}
 				}
 			}
 			StaticGraphics
 			{
-				model = "Models/PlaceableObjects/Trees/tree_fruit_bare.obj"
+				model = "Models/PlaceableObjects/Rocks/CrystalGrowCluster.obj"
 				useAlphaShadows = 1
 				
 				Diffuse
 				{
-					3 = "Models/PlaceableObjects/Trees/tree_fruit_bare.tga"
-					2 = "Models/PlaceableObjects/Trees/tree_fruit_branch.tga"
-					1 = "Models/PlaceableObjects/Trees/tree_fruit_trunk.tga"
-					0 = "Models/PlaceableObjects/Trees/RootsMaster1med_diff.tga"
+					0 = "Models/PlaceableObjects/Rocks/crystalRuby_diff.tga"
+				}
+				Glow
+				{
+					0 = "Models/PlaceableObjects/Rocks/crystal_glow.tga"
 				}
 			}
 			RigidBody
@@ -102,6 +103,8 @@ GameObjects
 				removalSound = "GrassDig"
 				miningEmitter = "Strike WoodFruit Emitter"
 				miningEmitterAlt = "Strike LeafEllipticGreen Emitter"
+                
+                orientsToSurface = 1
 
 				Drops
 				{
@@ -123,5 +126,61 @@ GameObjects
 				{
 					offset = <0, 3, 0>
 				}
+			}
+		}
+    }
+    
+    Placeable
+    {
+        
+        Crystal Growth Controller
+		{
+			Transform
+			{
+			}
+
+			Script
+			{
+				file = "Scripts/Objects/GrowableStarter.lua"
+				class = "GrowableStarter"
+				
+				arguments
+				{
+					decayWhenFinished = 1
+					
+					States
+					{
+						1
+						{
+							objectName = "Ruby Shard"
+							growthTime = 180.0
+							beginningScale = 0.1
+							endingScale = 0.5
+						}
+						
+						2
+						{
+							objectName = "Ruby Shard"
+							growthTime = 540.0
+							beginningScale = 0.5
+							endingScale = 0.75
+							pickable = 1
+						}
+						
+						3
+						{
+							objectName = "Ruby Shard"
+							growthTime = 180.0
+							beginningScale = 0.75
+							endingScale = 1.0
+							activatePhysics = 1
+						}
+					}
+				}
+			}
+			
+			Placeable
+			{
+				name = "Crystal Growth Controller"
 			}
 		}
